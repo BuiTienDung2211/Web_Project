@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product2</title>
+  </head>
+  <body>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+          {
+              padding:0;
+              margin:0;
+          }
+          body{
+            font-family:'Open Sans',sans-serif;
+            font-size:14px;
+            color: #111;
+            line-height: 1.15;
+
+
+
+          }
+          #wrapper{
+            max-width: 1170px;
+            margin:0 auto;
+
+          }
+          .headline{
+            text-align:center;
+            margin: 40px 0px;
+          }
+          h3{
+            font-size:18px;
+            color:#111;
+            padding:10px 20px;
+            text-transform: uppercase;
+            border:1px solid #bebebe;
+            display: inline-block;
+            color: #555;
+            font-weight:600;
+          }
+         ul.products{
+           list-style: none;
+           display:flex;
+           flex-wrap: wrap;
+           justify-content:space-between;
+         }
+         ul.products li{
+           padding-left: 15px;
+           padding-right: 15px;
+           flex-basis:25%;
+           box-sizing: border-box;
+           margin-bottom:30px;
+
+         }
+         ul.products li img{
+           max-width: 100%;
+           height:auto;
+
+         }
+         ul.products li .product-top{
+           position: relative;
+           overflow: hidden;
+         }
+         ul.products li .product-top .product-thumb{
+           display: block;
+         }
+         ul.products li:hover .product-top .product-thumb img{
+           filter:opacity(80%)
+         }
+         ul.products li .product-top .product-thumb img{
+           display:block;
+         }
+         ul.products li .product-top a.buy-now{
+           text-transform: uppercase;
+           text-decoration: none;
+           text-align: center;
+           display: block;
+           background-color: #446084;
+           color:#fff;
+           padding:10px 0px;
+           position: absolute;
+           bottom: -36px;
+           width: 100%;
+           transition: 0.25s ease-in-out;
+           opacity: 0.85;
+         }
+         ul.products li:hover a.buy-now{
+           bottom:0px;
+         }
+         ul.products li .product_info{
+           padding: 9px 2px;
+         }
+        ul.products li .product_info a{
+          display:block;
+          text-decoration: none;
+        }
+        ul.products li .product_info a.product-cat{
+          font-size:11px;
+          text-transform: uppercase;
+          color:#9e9e9e;
+          padding:3px 0px;
+        }
+        ul.products li .product_info a.product-name{
+          color:#334862;
+          padding: 3px 0px;
+        }
+        ul.products li .product_info .product-price{
+          color:#111;
+          padding: 2px 0px;
+          font-weight:600;
+        }
+      </style>
+    <div id="wrapper">
+      <div class="headline">
+        <h3>Sản phẩm bán chạy</h3>
+      </div>
+      <ul class="products">
+        <li>
+          <div class="product-item">
+            <div class="product-top">
+              <a href="" class="product-thump">
+                <img src="images/p1-1.webp" alt="" />
+              </a>
+              <a href="" class="buy-now">Mua ngay</a>
+              
+            </div>
+            <div class="product_info">
+              <a href="" class="product-cat">Ban phim</a>
+              <a href="" class="product-name">
+                Bàn phím cơ Steelseries Apex Pro (Full size/OmniPoint Switch)</a
+              >
+              <div class="product-price">4.599.000 ₫</div>
+            </div>
+          </div>
+        </li>
+        <li>
+            <div class="product-item">
+              <div class="product-top">
+                <a href="" class="product-thump">
+                  <img src="images/p2-1.webp" alt="" />
+                </a>
+                <a href="" class="buy-now">Mua ngay</a>
+               
+              </div>
+              <div class="product_info">
+                <a href="" class="product-cat">Ban phim</a>
+                <a href="" class="product-name">
+                    Bàn phím không dây Logitech MX Keys Mini (920-010507) (Hồng)</a
+                >
+                <div class="product-price">2.499.000 ₫</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-item">
+              <div class="product-top">
+                <a href="" class="product-thump">
+                  <img src="images/p3-1.webp" alt="" />
+                </a>
+                <a href="" class="buy-now">Mua ngay</a>
+               
+              </div>
+              <div class="product_info">
+                <a href="" class="product-cat">Ban phim</a>
+                <a href="" class="product-name">
+                    Chuột gaming Logitech G502 Hero KDA</a
+                >
+                <div class="product-price">1.599.000 ₫</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-item">
+              <div class="product-top">
+                <a href="" class="product-thump">
+                  <img src="images/p4-1.webp" alt="" />
+                </a>
+                <a href="" class="buy-now">Mua ngay</a>
+               
+              </div>
+              <div class="product_info">
+                <a href="" class="product-cat">Ban phim</a>
+                <a href="" class="product-name">
+                    Card màn hình ASUS ROG STRIX Radeon RX 6800 16GB GDDR6
+                    </a
+                >
+                <div class="product-price">29.579.000 ₫</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-item">
+              <div class="product-top">
+                <a href="" class="product-thump">
+                  <img src="images/p5-1.webp" alt="" />
+                </a>
+                <a href="" class="buy-now">Mua ngay</a>
+          
+              </div>
+              <div class="product_info">
+                <a href="" class="product-cat">Ban phim</a>
+                <a href="" class="product-name">
+                    Tai nghe Over-ear PLANTRONICS Rig 500E (Đen)</a
+                >
+                <div class="product-price">3.999.000 ₫</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-item">
+              <div class="product-top">
+                <a href="" class="product-thump">
+                  <img src="images/p6-1.webp" alt="" />
+                </a>
+                <a href="" class="buy-now">Mua ngay</a>
+               
+              </div>
+              <div class="product_info">
+                <a href="" class="product-cat">Ban phim</a>
+                <a href="" class="product-name">
+                    Màn hình LCD LG 34GN850-B.ATV (3440 x 1440/IPS/160Hz/1 ms/FreeSync, G-Sync compatible)</a
+                >
+                <div class="product-price">23.500.000 ₫</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-item">
+              <div class="product-top">
+                <a href="" class="product-thump">
+                  <img src="images/p7-1.webp" alt="" />
+                </a>
+                <a href="" class="buy-now">Mua ngay</a>
+               
+              </div>
+              <div class="product_info">
+                <a href="" class="product-cat">Ban phim</a>
+                <a href="" class="product-name">
+                    Mainboard ASUS Z490 ROG MAXIMUS XII EXTREME</a
+                >
+                <div class="product-price">21.120.000 ₫</div>
+              </div>
+            </div>
+          </li>
+          
+          <li>
+            <div class="product-item">
+              <div class="product-top">
+                <a href="" class="product-thump">
+                  <img src="images/p8-1.webp" alt="" />
+                </a>
+                <a href="" class="buy-now">Mua ngay</a>
+                
+              </div>
+              <div class="product_info">
+                <a href="" class="product-cat">Ban phim</a>
+                <a href="" class="product-name">
+                    RAM desktop G.SKILL Trident Z RGB 64GB (2 x 32GB) DDR4 3200MHz (F4-3200C16D-64GTZR)</a
+                >
+                <div class="product-price">8.359.000 ₫</div>
+              </div>
+            </div>
+          </li>
+        
+      </ul>
+      product_item>
+    </div>
+  </body>
+</html>
